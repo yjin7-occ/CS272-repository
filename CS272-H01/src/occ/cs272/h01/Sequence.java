@@ -5,14 +5,14 @@
 package occ.cs272.h01;
 
 /**
- * @author <your OCC login name such as sgilbert>
- * @version <the date>
+ * @author <yjin7>
+ * @version <09/09/2019>
  *
  */
 public class Sequence
 {
     // TODO: You must fill these in correctly to get credit
-    public static final String STUDENT = "Put your login ID here";
+    public static final String STUDENT = "C02542048";
     public static final String ASSIGNMENT = "H01-D";
     
     private int[] array;
@@ -28,8 +28,21 @@ public class Sequence
     
     // TODO: Write the three versions of slice() here
     
+    public Sequence slice(int start) {
+    	int sequenceLength = array.length;
+    	int[] a = new int[];
+    	return new Sequence(a);
+    }
     
+    public Sequence slice(int start, int end) {
+    	int[] a = new int[1];
+    	return new Sequence(a);
+    }
     
+    public Sequence slice(int start, int end, int step) {
+    	int[] a = new int[1];
+    	return new Sequence(a);
+    }
     
     
     
