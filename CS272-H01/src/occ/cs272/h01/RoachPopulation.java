@@ -12,7 +12,7 @@ package occ.cs272.h01;
 public class RoachPopulation
 {	
 	// TODO: You must fill these in correctly to get credit
-    public static final String STUDENT = "C02542048";
+    public static final String STUDENT = "yjin7";
     public static final String ASSIGNMENT = "H01-A";
 
     // TODO: Complete the RoachPopulation class
